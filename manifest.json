@@ -1,0 +1,850 @@
+{
+    "id":  "latino-providers-droydr",
+    "name":  "Addon Latam Plugin",
+    "version":  "2.2.0",
+    "scrapers":  [
+                     {
+                         "id":  "lamovie",
+                         "name":  "LaMovie",
+                         "description":  "Proveedor premium con enlaces directos en 1080p y enfoque Latino.",
+                         "version":  "3.7.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/lamovie.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "moviebox",
+                         "name":  "MovieBox",
+                         "description":  "Peliculas y series de MovieBox, solo con audio en Español y Latino.",
+                         "version":  "1.7.2",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/moviebox.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "embed69",
+                         "name":  "Embed69",
+                         "description":  "Movies \u0026 Series in English \u0026 Spanish (~5s).",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/embed69.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "en",
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "cinecalidad",
+                         "name":  "CineCalidad",
+                         "description":  "Películas en Latino desde CineCalidad. Vimeos, VOE, StreamWish.",
+                         "version":  "3.8.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/cinecalidad.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "peliserieshoy",
+                         "name":  "PelisSeriesHoy",
+                         "description":  "Streams en Latino desde PelisSeriesHoy.",
+                         "version":  "3.7.9",
+                         "author":  "KennethJYS",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/peliserieshoy.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "seriesmetro",
+                         "name":  "SeriesMetro",
+                         "description":  "Streams en Latino desde SeriesMetro. Fastream.",
+                         "version":  "3.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/seriesmetro.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "hackstore",
+                         "name":  "HackStore",
+                         "description":  "Streams en Latino desde HackStore.",
+                         "version":  "3.7.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/hackstore.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "lacartoons",
+                         "name":  "LACartoons",
+                         "description":  "Caricaturas y series animadas clasicas en Español Latino, via lacartoons.com.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/lacartoons.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "cuevana",
+                         "name":  "Cuevana",
+                         "description":  "Peliculas y series en Latino desde Cuevana.",
+                         "version":  "2.7.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/cuevana_unbuendato.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "pelisgo",
+                         "name":  "PelisGo",
+                         "description":  "Peliculas y series de PelisGo (pelisgo.online) con su propia API y sesion: Latino y Castellano por separado, con Pixeldrain cuando esta disponible.",
+                         "version":  "3.1.20",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/pelisgo.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "pelispedia",
+                         "name":  "PelisPedia",
+                         "description":  "Peliculas y series en Latino desde PelisPedia.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/pelispedia.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "pelisplus",
+                         "name":  "PelisPlus",
+                         "description":  "Peliculas y series en Latino desde PelisPlus (pelisplushd.la).",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/pelisplus.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "sololatino",
+                         "name":  "SoloLatino",
+                         "description":  "Peliculas y series en Latino desde SoloLatino.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/sololatino.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "tioplus",
+                         "name":  "TioPlus",
+                         "description":  "Peliculas y series en Latino desde TioPlus.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/tioplus.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "videasy",
+                         "name":  "VidEasy",
+                         "description":  "VidEasy filtrado: servidor LaMovie en Latino y videos con pista de audio en Latino o Castellano.",
+                         "version":  "2.7.0",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/videasy.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "allcalidad",
+                         "name":  "AllCalidad",
+                         "description":  "Peliculas, series y animes en Latino desde AllCalidad (API JSON propia).",
+                         "version":  "2.7.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/allcalidad.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "animeav1",
+                         "name":  "AnimeAV1",
+                         "description":  "Anime subtitulado y doblado desde AnimeAV1.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/animeav1.js",
+                         "enabled":  true,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "animejl",
+                         "name":  "AnimeJL",
+                         "description":  "Anime en Latino desde AnimeJL (anime-jl.net). Aviso: el sitio original usa Cloudflare, puede fallar si el bloqueo esta activo.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/animejl.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "areadocumental",
+                         "name":  "Area Documental",
+                         "description":  "Documentales en Español desde Area Documental (video directo, sin embeds de terceros).",
+                         "version":  "2.7.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/areadocumental.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "doramasflix",
+                         "name":  "Doramasflix",
+                         "description":  "Doramas y peliculas asiaticas en Latino desde Doramasflix API GraphQL directa, con respaldo de scraping HTML propio (Uqload, OkRu, Doodstream, Streamtape, VOE, Primeload).",
+                         "version":  "3.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/doramasflix.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "doramasyt",
+                         "name":  "DoramasYT",
+                         "description":  "Doramas asiaticos en Latino desde DoramasYT.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/doramasyt.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "latanime",
+                         "name":  "LatAnime",
+                         "description":  "Anime en Latino desde LatAnime.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/latanime.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "entrepeliculasyseries",
+                         "name":  "EntrePeliculasYSeries",
+                         "description":  "Peliculas y series en Latino desde EntrePeliculasYSeries.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/entrepeliculasyseries.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "seriesflix",
+                         "name":  "SeriesFlix",
+                         "description":  "Series y peliculas en Latino desde SeriesFlix.",
+                         "version":  "1.6.9",
+                         "author":  "AdrianJael",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/seriesflix.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "jkanime",
+                         "name":  "JKAnime",
+                         "description":  "Anime subtitulado desde JKAnime. Version simplificada: cubre el camino principal de extraccion, no las cadenas de respaldo mas complejas del sitio (GSPlay/Nozomi).",
+                         "version":  "2.7.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/jkanime.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "monoschinos",
+                         "name":  "Monoschinos",
+                         "description":  "Anime subtitulado desde Monoschinos.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/monoschinos.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "tioanime",
+                         "name":  "TioAnime",
+                         "description":  "Anime subtitulado desde TioAnime.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/tioanime.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "mundodonghua",
+                         "name":  "MundoDonghua",
+                         "description":  "Donghuas (animacion china) en Español desde MundoDonghua.",
+                         "version":  "2.7.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/mundodonghua.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "reydonghua",
+                         "name":  "ReyDonghua",
+                         "description":  "Donghuas (animacion china) en Latino desde ReyDonghua.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/reydonghua.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "peliculasflix",
+                         "name":  "PeliculasFlix",
+                         "description":  "Peliculas en Español desde PeliculasFlix -- misma API GraphQL que Doramasflix, con respaldo de scraping HTML propio.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/peliculasflix.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "rcn",
+                         "name":  "RCN",
+                         "description":  "Novelas, series y peliculas gratis de RCN Total (Colombia) via su propia API (Cloud Unity). Solo contenido sin DRM.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd (+ ayuda de un colaborador)",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/rcn.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "vitaminagg",
+                         "name":  "VitaminaGG",
+                         "description":  "Peliculas, series y anime en Latino desde VitaminaGG.",
+                         "version":  "2.6.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/vitaminagg.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "vimeus",
+                         "name":  "Vimeus",
+                         "description":  "Peliculas, series y animes desde Vimeus usando el ID de TMDB.",
+                         "version":  "1.1.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/vimeus.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "homecine",
+                         "name":  "HomeCine",
+                         "description":  "Peliculas y series en Latino y Castellano desde HomeCine.",
+                         "version":  "1.1.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/homecine.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "areshd",
+                         "name":  "AresHD",
+                         "description":  "Peliculas y series en Latino, Castellano y Subtitulado desde AresHD.",
+                         "version":  "1.1.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/areshd.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "allpeliculasse",
+                         "name":  "AllpeliculasSE",
+                         "description":  "Peliculas y series en Latino desde AllPeliculas.",
+                         "version":  "1.1.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/allpeliculasse.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "henaojara",
+                         "name":  "Henaojara",
+                         "description":  "Anime en Latino, Castellano y Subtitulado desde Henaojara.",
+                         "version":  "1.1.9",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/henaojara.js",
+                         "enabled":  true,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "plutotv",
+                         "name":  "Pluto TV",
+                         "description":  "Peliculas y series gratis de Pluto TV (solo contenido bajo demanda, sin canales en vivo), con el catalogo del pais del usuario.",
+                         "version":  "1.0.6",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/plutotv.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "gnula",
+                         "name":  "Gnula",
+                         "description":  "Peliculas y series en Latino, Castellano y Subtitulado desde Gnula (gnula.life, con gnula.one de respaldo para peliculas).",
+                         "version":  "2.0.5",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/gnula.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "katanime",
+                         "name":  "KatAnime",
+                         "description":  "Anime subtitulado al espanol (y latino cuando el sitio lo tiene) desde KatAnime.",
+                         "version":  "1.0.4",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/katanime.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "donghualife",
+                         "name":  "DonghuaLife",
+                         "description":  "Donghuas subtitulados al espanol desde DonghuaLife (solo capitulos gratuitos, sin VIP).",
+                         "version":  "1.0.4",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/donghualife.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "danimados",
+                         "name":  "Danimados",
+                         "description":  "Series animadas y caricaturas en Español Latino desde Danimados.",
+                         "version":  "1.0.6",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/danimados.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "pelishax",
+                         "name":  "PelisHax",
+                         "description":  "Peliculas y series en Latino, Castellano y Subtitulado desde PelisHax (pelishaxpro.com).",
+                         "version":  "1.0.2",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/pelishax.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "unlimplay",
+                         "name":  "UnlimPlay",
+                         "description":  "Peliculas y series en Latino, Castellano y Subtitulado desde UnlimPlay.",
+                         "version":  "1.0.2",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/unlimplay.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "pelispanda",
+                         "name":  "PelisPanda",
+                         "description":  "Peliculas y series en Latino desde PelisPanda, solo servidores en linea (sin torrents).",
+                         "version":  "1.0.2",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/pelispanda.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "4khdhub",
+                         "name":  "4KHDHub",
+                         "description":  "4KHDHub filtrado: solo archivos con audio en Latino o Castellano.",
+                         "version":  "1.0.0",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/4khdhub.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "hdhub4u",
+                         "name":  "HDHub4u",
+                         "description":  "HDHub4u filtrado: solo archivos con audio en Latino o Castellano.",
+                         "version":  "1.0.0",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/hdhub4u.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "uhdmovies",
+                         "name":  "UHDMovies",
+                         "description":  "UHDMovies filtrado: solo archivos con audio en Latino o Castellano.",
+                         "version":  "1.0.0",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/uhdmovies.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "showbox",
+                         "name":  "ShowBox",
+                         "description":  "ShowBox filtrado: solo archivos con audio en Latino o Castellano.",
+                         "version":  "1.0.0",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/showbox.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "vidfast",
+                         "name":  "VidFast",
+                         "description":  "VidFast filtrado: solo videos con pista de audio en Latino o Castellano.",
+                         "version":  "1.0.0",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/vidfast.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "vidlink",
+                         "name":  "VidLink",
+                         "description":  "VidLink filtrado: solo videos con pista de audio en Latino o Castellano.",
+                         "version":  "1.0.0",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/vidlink.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "cinehdplus",
+                         "name":  "CineHdPlus",
+                         "description":  "Peliculas y series en Latino y Castellano desde CineHdPlus.",
+                         "version":  "1.7.2",
+                         "author":  "AdrianJael",
+                         "supportedTypes":  [
+                                                "movie",
+                                                "tv"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/cinehdplus.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     },
+                     {
+                         "id":  "documaniatv",
+                         "name":  "DocumaniaTV",
+                         "description":  "Documentales en Español desde DocumaniaTV (video directo, sin embeds de terceros).",
+                         "version":  "2.7.2",
+                         "author":  "Doyrd",
+                         "supportedTypes":  [
+                                                "movie"
+                                            ],
+                         "filename":  "https://raw.githubusercontent.com/Droydr13/pluggin-latino/main/providers/documaniatv.js",
+                         "enabled":  false,
+                         "contentLanguage":  [
+                                                 "es"
+                                             ]
+                     }
+                 ]
+}
